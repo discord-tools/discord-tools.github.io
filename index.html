@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Discord tools</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content="Discord tools" property="og:title" />
+<meta content="A website that has some tools for using discord" property="og:description" />
+<meta content="https://discord.gg/6985" property="og:url" />
+<meta content="https://cdn.discordapp.com/icons/1039243284863795312/a_b9a3042c4ea95f8258c11a0244fd9d1a.gif?size=1024" property="og:image" />
+<meta content="#eca974" data-react-helmet="true" name="theme-color" />
+</head>
+
+<script language="JavaScript1.2">
+
+    //Random iframe content- (c) Dynamic Drive (www.dynamicdrive.com)
+    //For full source code, and Terms Of use, visit http://dynamicdrive.com
+    //This credit MUST stay intact for use
+    
+    var ie=document.all&&navigator.userAgent.indexOf("Opera")==-1
+    var dom=document.getElementById&&navigator.userAgent.indexOf("Opera")==-1
+    
+    //Specify IFRAME display attributes
+    var iframeprops='width=130 height=130 marginwidth="0" marginheight="0" hspace="0" vspace="0" frameborder="1" scrolling="no"'
+    
+    //Specify random URLs to display inside iframe
+    var randomcontent=new Array()
+    randomcontent[0]="http://de3.bot-hosting.net:6353/"
+    randomcontent[1]="http://de1.bot-hosting.net:6209/"
+    
+    //No need to edit after here
+    const sex = randomcontent[Math.floor(Math.random()*randomcontent.length)]
+    if (ie||dom)
+    
+    document.write('<iframe src="'+sex+'" style="position:fixed; top:0; left:0; bottom:0; right:0; width:100%; height:100%; border:none; margin:0; padding:0; overflow:hidden; z-index:999999;">Your browser doesnt support iframes</iframe>')
+    
+    function random_iframe(){
+    if (ie||dom){
+    var iframeobj=document.getElementById? document.getElementById("dynstuff") : document.all.dynstuff
+    iframeobj.src=randomcontent[Math.floor(Math.random()*randomcontent.length)]
+    }
+    }
+    
+    window.onload=random_iframe
+    
+    </script>
+
+</html>
+
+
+
